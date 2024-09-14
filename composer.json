@@ -1,0 +1,20 @@
+{
+  "name": "pulseframe/redis",
+  "description": "PulseFrame's redis functionality for php.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+      "psr-4": {
+          "PulseFrame\\": "src/"
+      }
+  },
+  "authors": [
+      {
+          "name": "KingMaj0r"
+      }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+      "pulseframe/base": "^1.2"
+  }
+}
